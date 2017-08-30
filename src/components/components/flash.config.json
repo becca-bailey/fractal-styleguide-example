@@ -1,0 +1,28 @@
+{
+  "collated": true,
+  "context": {
+    "flash": {
+      "type": "success",
+      "message": "This is a flash message."
+    }
+  },
+  "variants": [
+    {
+      "name": "Collapsable",
+      "context": {
+        "flash": {
+          "collapsable": true,
+          "message": "This is a flash message that can be closed."
+        }
+      }
+    },
+    {
+      "name": "Error",
+      "context": {
+        "flash": {
+          "type": "error"
+        }
+      }
+    }
+  ]
+}

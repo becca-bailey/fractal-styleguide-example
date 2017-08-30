@@ -1,0 +1,24 @@
+{
+  "context": {
+    "headers": [
+      {
+        "label": "Column One"
+      },
+      {
+        "label": "Column Two"
+      }
+    ],
+    "rows": [
+      {
+        "columns": [
+          {
+            "value": "Value"
+          },
+          {
+            "value": "Value"
+          }
+        ]
+      }
+    ]
+  }
+}

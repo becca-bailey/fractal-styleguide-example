@@ -1,0 +1,56 @@
+{
+  "collated": true,
+  "context": {
+    "label": "Text Input"
+  },
+  "variants": [
+    {
+      "name": "Left Icon",
+      "context": {
+        "label": "Text Input w/ Left Icon",
+        "icon": "search"
+      }
+    },
+    {
+      "name": "Placeholder",
+      "context": {
+        "label": "Text Input w/ Placeholder",
+        "placeholder": "placeholder"
+      }
+    },
+    {
+      "name": "Hidden label",
+      "context": {
+        "label": "Label",
+        "hideLabel": true,
+        "placeholder": "hidden label field"
+      }
+    },
+    {
+      "name": "Error",
+      "context": {
+        "label": "Text Input Error State",
+        "invalid": true,
+        "message": {
+          "text": "This field is required.",
+          "type": "error",
+          "icon": "icon--error"
+        }
+      }
+    },
+    {
+      "name": "Disabled",
+      "context": {
+        "label": "Disabled Input Field",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Read Only",
+      "context": {
+        "label": "Read Only Input Field",
+        "readonly": true
+      }
+    }
+  ]
+}

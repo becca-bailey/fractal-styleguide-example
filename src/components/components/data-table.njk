@@ -1,0 +1,25 @@
+<table class="c-data-table">
+  <thead>
+    <tr>
+      {%- for row in headers -%}
+      <th>{{ row.label }}</th>
+      {%- endfor -%}
+    </tr>
+  </thead>
+  <tbody>
+  {%- for row in rows -%}
+    <tr class="c-data-table__row">
+    {%- for column in row.columns -%}
+      <td class="c-data-table__column">
+        {%- if column.components -%}
+          {%- for component in column.components -%}
+            {% render "@" + component.name, component.config %}
+          {%- endfor -%}
+        {%- endif -%}
+        {{ column.value }}
+      </td>
+    {%- endfor -%}
+    </tr>
+  {%- endfor -%}
+  </tbody>
+</table>

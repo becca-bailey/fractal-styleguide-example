@@ -1,0 +1,52 @@
+{
+  "collated": true,
+  "name": "Input Radio Buttons",
+  "context": {
+    "label": "Radio Buttons",
+    "inputs": [
+      {
+        "label": "Option One"
+      },
+      {
+        "label": "Option Two"
+      },
+      {
+        "label": "Option Three"
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "Error",
+      "context": {
+        "label": "Radio Button Error State",
+        "invalid": true,
+        "message": {
+          "text": "This field is required.",
+          "type": "error",
+          "icon": "icon--error"
+        }
+      }
+    },
+    {
+      "name": "Disabled",
+      "context": {
+        "label": "Disabled Radio Button Field",
+        "inputs": [
+          {
+            "label": "Option One",
+            "disabled": true
+          },
+          {
+            "label": "Option Two",
+            "disabled": true
+          },
+          {
+            "label": "Option Three",
+            "disabled": true
+          }
+        ]
+      }
+    }
+  ]
+}

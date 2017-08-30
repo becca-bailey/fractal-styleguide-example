@@ -1,0 +1,29 @@
+{
+  "collated": true,
+  "context": {
+    "text": "Message text goes here."
+  },
+  "variants": [
+    {
+      "name": "Info",
+      "context": {
+        "type": "info",
+        "icon": "icon--info"
+      }
+    },
+    {
+      "name": "Error",
+      "context": {
+        "type": "error",
+        "icon": "icon--error"
+      }
+    },
+    {
+      "name": "Success",
+      "context": {
+        "type": "success",
+        "icon": "icon--checkmark"
+      }
+    }
+  ]
+}

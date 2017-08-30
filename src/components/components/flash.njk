@@ -1,0 +1,17 @@
+<div class="c-flash{%- if flash.type == "error" -%}--error{%- else -%}--success{%- endif -%}">
+  <div class="c-flash__icon">
+    {%- if flash.type == "error" -%}
+      {% render "@icon--error" %}
+    {%- else -%}
+      {% render "@icon--checkmark" %}
+    {%- endif -%}
+  </div>
+  <div class="c-flash__message">
+    {{ flash.message }}
+  </div>
+  {%- if flash.collapsable -%}
+  <div class="c-flash__close">
+    {% render "@icon--close" %}
+  </div>
+  {%- endif -%}
+</div>

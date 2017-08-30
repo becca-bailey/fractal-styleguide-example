@@ -1,0 +1,46 @@
+{
+  "collated": true,
+  "name": "Input Select",
+  "context": {
+    "label": "Select Menu",
+    "options": [
+      {
+        "label": "Option One"
+      },
+      {
+        "label": "Option Two"
+      },
+      {
+        "label": "Option Three"
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "Error",
+      "context": {
+        "label": "Select Menu Error State",
+        "invalid": true,
+        "message": {
+          "text": "This field is required.",
+          "type": "error",
+          "icon": "icon--error"
+        }
+      }
+    },
+    {
+      "name": "Disabled",
+      "context": {
+        "label": "Disabled Select Menu",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Read Only",
+      "context": {
+        "label": "Read Only Select Menu",
+        "readonly": true
+      }
+    }
+  ]
+}

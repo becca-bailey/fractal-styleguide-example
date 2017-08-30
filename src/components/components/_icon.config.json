@@ -1,0 +1,107 @@
+{
+  "collated": true,
+  "variants": [
+    {
+      "name": "Checkmark",
+      "context": {
+        "iconCheck": true
+      }
+    },
+    {
+      "name": "Close",
+      "context": {
+        "iconClose": true
+      }
+    },
+    {
+      "name": "Error",
+      "context": {
+        "iconError": true
+      }
+    },
+    {
+      "name": "Info",
+      "context": {
+        "iconInfo": true
+      }
+    },
+    {
+      "name": "Sign Out",
+      "context": {
+        "iconSignOut": true
+      }
+    },
+    {
+      "name": "Expand",
+      "context": {
+        "iconExpand": true
+      }
+    },
+    {
+      "name": "No Entry",
+      "context": {
+        "iconNoEntry": true
+      }
+    },
+    {
+      "name": "Search",
+      "context": {
+        "iconSearch": true
+      }
+    },
+    {
+      "name": "Overflow",
+      "context": {
+        "iconOverflow": true
+      }
+    },
+    {
+      "name": "Trash",
+      "context": {
+        "iconTrash": true
+      }
+    },
+    {
+      "name": "Edit",
+      "context": {
+        "iconEdit": true
+      }
+    },
+    {
+      "name": "Add",
+      "context": {
+        "iconAdd": true
+      }
+    },
+    {
+      "name": "Email",
+      "context": {
+        "iconEmail": true
+      }
+    },
+    {
+      "name": "Chat",
+      "context": {
+        "iconChat": true
+      }
+    },
+    {
+      "name": "Upload",
+      "context": {
+        "iconUpload": true
+      }
+    },
+    {
+      "name": "ArrowDown",
+      "context": {
+        "iconArrowdown": true
+      }
+    },
+    {
+      "name": "Lock",
+      "context": {
+        "iconLock": true
+      }
+    }
+  ]
+}

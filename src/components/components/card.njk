@@ -1,0 +1,13 @@
+<div class="c-card">
+  <header class="c-card__header">
+    <div class="c-card__title">{{ title }}</div>
+  </header>
+  <div class="c-card__body">
+    {%- if bodyComponents -%}
+      {%- for component in bodyComponents -%}
+        {% render "@" + component.name, component.config %}
+      {%- endfor -%}
+    {%- endif -%}
+    {{ content }}
+  </div>
+</div>

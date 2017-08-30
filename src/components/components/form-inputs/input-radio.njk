@@ -1,0 +1,11 @@
+<fieldset {% if invalid %} class="o-input--has-errors"{% endif %}>
+  <legend>{{ label }}</legend>
+  {% for input in inputs %}
+  <label>
+    <input type="radio" name="radio" {% if input.disabled %} disabled{% endif %}{% if input.readonly %} readonly{% endif %}> {{ input.label }}
+  </label>
+  {% endfor %}
+  {% if invalid %}
+    {% render "@message", message %}
+  {% endif %}
+</fieldset>

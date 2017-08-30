@@ -1,0 +1,15 @@
+{
+  "collated": true,
+  "context": {
+    "label": "Phone Number",
+    "value": "555-555-5555"
+  },
+  "variants": [
+    {
+      "name": "Reverse",
+      "context": {
+        "reverse": true
+      }
+    }
+  ]
+}

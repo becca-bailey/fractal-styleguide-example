@@ -1,0 +1,42 @@
+{
+  "collated": true,
+  "name": "Input Checkboxes",
+  "context": {
+    "label": "Single Check Box"
+  },
+  "variants": [
+    {
+      "name": "Multiple Checkboxes",
+      "context": {
+        "label": "Multiple Checkboxes",
+        "inputs": [
+          {
+            "label": "Option One"
+          },
+          {
+            "label": "Option Two"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Error",
+      "context": {
+        "label": "Checkbox Error State",
+        "invalid": true,
+        "message": {
+          "text": "This field is required.",
+          "type": "error",
+          "icon": "icon--error"
+        }
+      }
+    },
+    {
+      "name": "Disabled",
+      "context": {
+        "label": "Disabled Checkbox",
+        "disabled": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<dl class="c-label-value{% if reverse %}--reverse{% endif %}">
+  <dt class="c-label-value__label">{{ label }}</dt>
+  <dd class="c-label-value__value">
+    {{ value }}
+    {%- if component -%}
+      {% render "@" + component.name, component.config %}
+    {%- endif -%}
+  </dd>
+</dl>

@@ -1,0 +1,41 @@
+{
+  "collated": true,
+  "context": {
+    "label": "Date Input"
+  },
+  "variants": [
+    {
+      "name": "Placeholder",
+      "context": {
+        "label": "Date Input w/ Placeholder",
+        "placeholder": "enter date"
+      }
+    },
+    {
+      "name": "Error",
+      "context": {
+        "label": "Date Input Error State",
+        "invalid": true,
+        "message": {
+          "text": "This field is required.",
+          "type": "error",
+          "icon": "icon--error"
+        }
+      }
+    },
+    {
+      "name": "Disabled",
+      "context": {
+        "label": "Disabled Date Field",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Read Only",
+      "context": {
+        "label": "Read Only Date Field",
+        "readonly": true
+      }
+    }
+  ]
+}

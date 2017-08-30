@@ -1,0 +1,1 @@
+<button class="c-btn{% if button.type %}--{{ button.type }}{% endif %}{% if button.size %} c-btn--{{ button.size }}{% endif %}"{% if button.disabled %}disabled{% endif %}>{% if button.icon %}{% render "@" + button.icon %} {% endif %}{{ button.label }}</button>

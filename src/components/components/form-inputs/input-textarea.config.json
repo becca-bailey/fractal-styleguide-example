@@ -1,0 +1,35 @@
+{
+  "collated": true,
+  "name": "Input Text Area",
+  "context": {
+    "label": "Text Area"
+  },
+  "variants": [
+    {
+      "name": "Error",
+      "context": {
+        "label": "Text Area Error State",
+        "invalid": true,
+        "message": {
+          "text": "This field is required.",
+          "type": "error",
+          "icon": "icon--error"
+        }
+      }
+    },
+    {
+      "name": "Disabled",
+      "context": {
+        "label": "Disabled Text Area Field",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Read Only",
+      "context": {
+        "label": "Read Only Text Area Field",
+        "readonly": true
+      }
+    }
+  ]
+}

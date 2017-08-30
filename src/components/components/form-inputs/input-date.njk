@@ -1,0 +1,6 @@
+<label{% if invalid %} class="o-input--has-errors"{% endif %}> {{ label }}
+  <input type="date"{% if placeholder %} placeholder="{{ placeholder}}"{% endif %}{% if invalid %} invalid{% endif %}{% if disabled %} disabled{% endif %}{% if readonly %} readonly{% endif %}{% if autofocus %} autofocus{% endif %}>
+  {% if invalid %}
+    {% render "@message", message %}
+  {% endif %}
+</label>

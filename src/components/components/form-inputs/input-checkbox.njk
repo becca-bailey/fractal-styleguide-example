@@ -1,0 +1,21 @@
+{% if inputs %}
+  <fieldset {% if invalid %} class="o-input--has-errors"{% endif %}>
+    <legend>{{ label }}</legend>
+    {% for input in inputs %}
+    <label>
+      <input type="checkbox" name="checkbox" {% if input.disabled %} disabled{% endif %}{% if input.readonly %} readonly{% endif %}> {{ input.label }}
+    </label>
+    {% endfor %}
+    {% if errorMessage %}
+      {% render "@error-message", errorMessage %}
+    {% endif %}
+  </fieldset>
+{% else %}
+  <label {% if invalid %} class="o-input--has-errors"{% endif %}>
+    <input type="checkbox" name="checkbox" {% if disabled %} disabled{% endif %}{% if readonly %} readonly{% endif %}> {{ input.label }}
+    {{ label }}
+    {% if invalid %}
+      {% render "@message", message %}
+    {% endif %}
+  </label>
+{% endif %}
