@@ -1,5 +1,47 @@
 {
   "name": "Example Page",
   "context": {
+    "messageConfig": {
+      "text": "Please fill out this form to continue",
+      "type": "info",
+      "icon": "icon--info"
+    },
+    "cardConfig": {
+      "title": "Register",
+      "bodyComponents": [
+        {
+          "name": "flash",
+          "config": {
+            "type": "error",
+            "message": "Sorry, there's a problem with your registration."
+          }
+        },
+        {
+          "name": "input-text",
+          "config": {
+            "label": "First Name"
+          }
+        },
+        {
+          "name": "input-text",
+          "config": {
+            "label": "Last Name",
+            "invalid": "true",
+            "message": {
+              "text": "Last name is required.",
+              "type": "error",
+              "icon": "icon--error"
+            }
+          }
+        },
+        {
+          "name": "button",
+          "config": {
+            "type": "primary",
+            "label": "Submit"
+          }
+        }
+      ]
+    }
   }
 }

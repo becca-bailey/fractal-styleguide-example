@@ -1,93 +1,73 @@
 {
   "collated": true,
   "context": {
-    "button": {
-      "label": "Primary Button"
-    }
+    "label": "Primary Button"
   },
   "variants": [
     {
       "name": "primary with icon",
       "context": {
-        "button": {
-          "label": "Primary Icon Button",
-          "type": "primary",
-          "icon": "icon--checkmark"
-        }
+        "label": "Primary Icon Button",
+        "type": "primary",
+        "icon": "icon--checkmark"
       }
     },
     {
       "name": "medium button",
       "context": {
-        "button": {
-          "label": "Medium Primary Button",
-          "type": "primary",
-          "size": "medium"
-        }
+        "label": "Medium Primary Button",
+        "type": "primary",
+        "size": "medium"
       }
     },
     {
       "name": "small button",
       "context": {
-        "button": {
-          "label": "Small Primary Button",
-          "type": "primary",
-          "size": "small"
-        }
+        "label": "Small Primary Button",
+        "type": "primary",
+        "size": "small"
       }
     },
     {
       "name": "secondary",
       "context": {
-        "button": {
-          "label": "Secondary Button",
-          "type": "secondary"
-        }
+        "label": "Secondary Button",
+        "type": "secondary"
       }
     },
     {
       "name": "black",
       "context": {
-        "button": {
-          "label": "Black Button",
-          "type": "black"
-        }
+        "label": "Black Button",
+        "type": "black"
       }
     },
     {
       "name": "outline",
       "context": {
-        "button": {
-          "label": "Outline Button",
-          "type": "outline"
-        }
+        "label": "Outline Button",
+        "type": "outline"
       }
     },
     {
       "name": "danger",
       "context": {
-        "button": {
-          "label": "Danger Button",
-          "type": "danger"
-        }
+        "label": "Danger Button",
+        "type": "danger"
       }
     },
     {
       "name": "disabled",
       "context": {
-        "button": {
-          "label": "Disabled Button",
-          "disabled": true
-        }
+        "label": "Disabled Button",
+        "disabled": true
       }
     },
     {
       "name": "text button",
       "context": {
-        "button": {
-          "label": "Text Button",
-          "type": "text"
-        }
+        "label": "Text Button",
+        "type": "text"
       }
     }
   ]
