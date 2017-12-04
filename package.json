@@ -2,7 +2,7 @@
   "name": "starter-component-library",
   "version": "1.0.0",
   "description": "Starter Component library",
-  "main": "index.js",
+  "main": "fractal.js",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
